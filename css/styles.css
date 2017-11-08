@@ -1,0 +1,72 @@
+/*
+  This will include my main styles for the website.
+*/
+
+/*  --- GLOBAL & MOBILE STYLES --- */
+
+main {
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: green;
+}
+
+section {
+  background-color: blue;
+}
+
+footer {
+  background-color: yellow;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+}
+
+button {
+    font-size: 1em;
+}
+
+/* --- NAVIGATION STYLES --- */
+nav {
+  width: 100%;
+  top: 0;
+  background-color: red;
+}
+
+nav a {
+  display: block;
+}
+
+div {
+  display: none;
+}
+
+.show-menu {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* --- END NAVIGATION STYLES ---*/
+
+
+/* --- TABLET STYLES --- */
+@media screen and (min-width: 550px) {
+}
+
+/* --- END TABLET STYLES ---*/
+
+/* --- DESKTOP STYLES --- */
+@media screen and (min-width: 920px) {
+
+}
+
+/* --- END DESKTOP STYLES --- */
