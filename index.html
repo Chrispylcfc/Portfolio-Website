@@ -7,31 +7,49 @@
   <title>Portfolio Website</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 </head>
 
 <body>
 
   <nav>
-    <button id="menu">Menu</button>
+    <button id="menu"><i class="fa fa-bars"></i> Menu</button>
     <div id="nav-menu">
       <!-- Need to add Logo (Top Left) -->
       <a href="#"><i></i>About Me</a>
       <a href="#"><i></i>Projects</a>
       <a href="#"><i></i>Skills</a>
       <a href="#"><i></i>Qualifications</a>
-      <a href="#"><i></i>Experience</a>
+      <a href="#experience"><i></i>Experience</a>
       <a href="#"><i></i>CV</a>
     </div>
   </nav>
 
   <header>
     <h1>Christopher Powell</h1>
-    <h2>Software Developer</h2>
-    <h3>Specialising in Java, Python & SQL</h3>
+    <h3>Software Developer</h3>
+    <h4>Specialising in Java, Python & SQL</h4>
   </header>
 
-  <section>
+  <button id="top-button"><i class="fa fa-arrow-up"></i> TOP</button>
+
+  <section class="section-style" id="#about-me">
     <h2>About Me</h2>
+
+    <p style="text-align: center">
+      <img class="img-circle" src ="images/Selfie.jpg" alt="Christopher Powell">
+    </p>
+
+    <p class="about-me">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce purus
+      risus, gravida quis mauris posuere, facilisis mollis orci. Pellentesque
+      vel enim cursus elit sodales tempor. Integer facilisis tellus vel ex
+      viverra volutpat. Sed pharetra nec odio ac vulputate. Nullam malesuada
+      condimentum commodo. Morbi odio libero, consectetur ut molestie tincidunt,
+      cursus at orci. Sed mattis, quam vitae gravida tincidunt, urna magna
+      varius libero, nec fringilla turpis lacus in libero.
+    </p>
+
   </section>
 
   <section>
@@ -46,12 +64,14 @@
     <h2>Qualifications</h2>
   </section>
 
-  <section>
+  <section id="experience">
     <h2>Experience</h2>
   </section>
 
   <footer>
-    <p>Christopher Powell - Social Network Items</p>
+    <p>
+      Christopher Powell - Social Network Items
+    </p>
   </footer>
 
 <script src="js/main.js"></script>

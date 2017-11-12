@@ -3,12 +3,19 @@
 */
 
 /*  --- GLOBAL & MOBILE STYLES --- */
+html {
+  height: 100%;
+}
+
 body {
   min-width: 320px;
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
 }
 
 header {
+  height: 50%;
   background-color: #FF606E;
 }
 
@@ -17,23 +24,24 @@ section {
 }
 
 footer {
-  background-color: #517398;
+  background-color: #FF606E;
   width: 100%;
+  position: static;
   bottom: 0;
-  position: fixed;
   text-align: center;
+  padding: 5px;
 }
 
 button {
   color: #517398;
   background: none;
   border: 2px solid #517398;
-  font-size: 17px;
   padding: 8px;
-  font-weight: normal;
   margin: 10px;
   text-decoration: none;
   min-width: 120px;
+  outline: none;
+  font-size: 1.2em;
 }
 
 button:hover {
@@ -45,6 +53,32 @@ button:hover {
 
 h1 {
   margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.img-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.about-me {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+#top-button {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+  min-width: 60px;
+  background-color: #517398;
+  color: white;
 }
 
 /* --- NAVIGATION STYLES --- */
@@ -99,6 +133,7 @@ a {
   #menu {
     display: none;
   }
+
 }
 
 /* --- END TABLET STYLES ---*/
