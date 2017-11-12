@@ -65,6 +65,10 @@ h2 {
   border-radius: 50%;
 }
 
+.img-center {
+  text-align: center;
+}
+
 .about-me {
   padding-left: 5%;
   padding-right: 5%;
@@ -79,6 +83,11 @@ h2 {
   min-width: 60px;
   background-color: #517398;
   color: white;
+  border-radious: 5px;
+}
+
+#top-button {
+  border: none;
 }
 
 /* --- NAVIGATION STYLES --- */
