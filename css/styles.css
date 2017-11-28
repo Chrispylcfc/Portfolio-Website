@@ -20,6 +20,10 @@ header {
   background-color: #FF606E;
 }
 
+section {
+  padding-bottom: 20px;
+}
+
 footer {
   background-color: #FF606E;
   width: 100%;
@@ -109,9 +113,9 @@ a {
   text-decoration: none;
 }
 
-/* --- END NAVIGATION STYLES ---*/
+/* --- END NAVIGATION STYLES --- */
 
-/* --- ABOUT ME SECTION STYLES ---*/
+/* --- ABOUT ME SECTION STYLES --- */
 .img-circle {
   height: 100px;
   width: 100px;
@@ -129,10 +133,12 @@ a {
 }
 /* --- END ABOUT ME SECTION STYLES ---*/
 
-/* --- PROJECT SECTION STYLES ---*/
+/* --- PROJECT SECTION STYLES --- */
 .project-item {
+  box-sizing: border-box;
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
+  padding: 10px;
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
   text-align: center;
 }
@@ -167,11 +173,23 @@ tr:nth-child(even) {
   background-color: #FF606E;
   display: inline-block;
   padding: 5px;
-  margin: 10px 5px 10px 5px;
+  margin-right: 10px 5px 10px 5px;
 }
 
-/* --- END PROJECT SECTION STYLES ---*/
+/* --- END PROJECT SECTION STYLES --- */
 
+/* --- EXPERIENCE SECTION STYLES --- */
+.experience-item {
+  width: 70%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
+  text-align: center;
+}
+
+/* --- END EXPERIENCE SECTION STYLES --- */
+/*  --- END GLOBAL & MOBILE STYLES --- */
 /* --- TABLET STYLES --- */
 @media screen and (min-width: 550px) {
   nav {
@@ -198,7 +216,7 @@ tr:nth-child(even) {
 
 }
 
-/* --- END TABLET STYLES ---*/
+/* --- END TABLET STYLES --- */
 
 /* --- DESKTOP STYLES --- */
 @media screen and (min-width: 920px) {
