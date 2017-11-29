@@ -1,5 +1,5 @@
 /*
-  This will include the main JS fucntionality.
+  This will include the main JS functionality.
 */
 
 (function(){
