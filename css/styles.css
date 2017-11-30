@@ -42,6 +42,7 @@ button {
   min-width: 120px;
   outline: none;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 button:hover {
@@ -188,7 +189,18 @@ tr:nth-child(even) {
 }
 
 /* --- END EXPERIENCE SECTION STYLES --- */
+
+/* --- CONTACT ME SECTION STYLES --- */
+.contact-me {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --- END CONTACT ME SECTION STYLES --- */
+
 /*  --- END GLOBAL & MOBILE STYLES --- */
+
 /* --- TABLET STYLES --- */
 @media screen and (min-width: 550px) {
   nav {
