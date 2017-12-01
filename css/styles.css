@@ -47,7 +47,6 @@ button {
 
 button:hover {
   background-color: #517398;
-  border-color: #262C3A;
   color: #FFF;
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
@@ -195,6 +194,42 @@ tr:nth-child(even) {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.show-modal {
+  display: block;
+}
+
+.modal-content {
+  position: relative;
+  background: #FF606E;
+  margin: 0 auto;
+  padding: 20px;
+  width: 75%;
+  height: 75%;
+  box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
+}
+
+.close {
+  position: absolute;
+  right: -22px;
+  top: -22px;
+  background: #517398;
+  padding: 17px 20px 17px 20px;
+  border-radius: 50%;
+  color: white;
 }
 
 /* --- END CONTACT ME SECTION STYLES --- */
