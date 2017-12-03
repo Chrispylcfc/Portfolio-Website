@@ -211,6 +211,18 @@ tr:nth-child(even) {
   text-align: center;
 }
 
+.accordion-button {
+  font-size: 0.8em;
+}
+
+.module-content {
+  display: none;
+}
+
+.show-module-content {
+  display: table;
+}
+
 /* --- END EDUCATION SECTION STYLES --- */
 
 /* --- EXPERIENCE SECTION STYLES --- */

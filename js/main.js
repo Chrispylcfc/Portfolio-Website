@@ -5,9 +5,13 @@
 (function(){
   let navButton = document.getElementById("menu");
   let navMenu = document.getElementById("nav-menu");
-  let topButton = document.getElementById("top-button")
+  let topButton = document.getElementById("top-button");
+  let accordionOne = document.getElementById("accordion-one");
+  let accordionTwo = document.getElementById("accordion-two");
 
   let toggle = false; // hidden at first
+  let moduleToggle1 = false;
+  let moduleToggle2 = false;
   function toggleMenu(){
     if (toggle) { // true: it's visible
       navMenu.classList.remove("show-menu"), // hide it
@@ -32,8 +36,38 @@
     document.documentElement.scrollTop = 0; // IE | Firefox
   }
 
+  function accordionOneFunction(){
+      let content = accordionOne.nextElementSibling;
+      if (moduleToggle1) {
+        content.classList.remove("show-module-content");
+        accordionOne.innerHTML = "Show Modules";
+        moduleToggle1 = false;
+      }
+      else {
+        content.classList.add("show-module-content");
+        accordionOne.innerHTML = "Hide Modules";
+        moduleToggle1 = true;
+      }
+  }
+
+  function accordionTwoFunction(){
+      let content = accordionTwo.nextElementSibling;
+      if (moduleToggle2) {
+        content.classList.remove("show-module-content");
+        accordionTwo.innerHTML = "Show Modules";
+        moduleToggle2 = false;
+      }
+      else {
+        content.classList.add("show-module-content");
+        accordionTwo.innerHTML = "Hide Modules";
+        moduleToggle2 = true;
+      }
+  }
+
   navButton.addEventListener("click", toggleMenu);
   document.addEventListener("scroll", scrollFunction);
   topButton.addEventListener("click", topFunction);
+  accordionOne.addEventListener("click", accordionOneFunction);
+  accordionTwo.addEventListener("click", accordionTwoFunction);
 
 })();
