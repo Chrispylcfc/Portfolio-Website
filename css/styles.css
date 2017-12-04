@@ -27,8 +27,8 @@ footer {
   width: 100%;
   position: static;
   bottom: 0;
-  text-align: center;
-  padding: 5px;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 10px;
 }
 
 button {
@@ -106,6 +106,7 @@ nav a {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* --- END NAVIGATION STYLES --- */
@@ -300,8 +301,25 @@ textarea {
   height: 150px;
   resize: none;
 }
-
 /* --- END CONTACT ME SECTION STYLES --- */
+
+/* --- FOOTER STYLES --- */
+.copyright {
+  float: left;
+}
+
+.footer-icons {
+  float: right;
+}
+
+.footer-icon {
+  margin-right: 8px;
+}
+
+.clear {
+  clear: both;
+}
+/* --- END FOOTER STYLES --- */
 
 /*  --- END GLOBAL & MOBILE STYLES --- */
 
