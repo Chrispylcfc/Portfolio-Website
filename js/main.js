@@ -12,18 +12,32 @@
   let toggle = false; // hidden at first
   let moduleToggle1 = false; // hidden at first
   let moduleToggle2 = false; // hidden at first
+
   function toggleMenu(){
     if (toggle) { // true: it's visible
       // Hide Navigation
-      navMenu.classList.remove("show-menu");
-      navButton.classList.remove("rotate-button");
-      toggle = false
+      if (document.documentElement.clientWidth < 600) {
+        navMenu.classList.remove("show-menu");
+        navButton.classList.remove("rotate-button");
+        toggle = false
+      }
     }
     else { // false: it's hidden
       // Show Navigation
-      navMenu.classList.add("show-menu"); // show it
-      navButton.classList.add("rotate-button");
-      toggle = true
+      if (document.documentElement.clientWidth < 600) {
+        navMenu.classList.add("show-menu");
+        navButton.classList.add("rotate-button");
+        toggle = true
+      }
+    }
+  }
+
+  function navFunction(){
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      navMenu.classList.add("nav-background");
+    }
+    else {
+      navMenu.classList.remove("nav-background");
     }
   }
 
@@ -71,6 +85,7 @@
   navButton.addEventListener("click", toggleMenu);
   navMenu.addEventListener("click", toggleMenu);
   document.addEventListener("scroll", scrollFunction);
+  document.addEventListener("scroll", navFunction);
   topButton.addEventListener("click", topFunction);
   accordionOne.addEventListener("click", accordionOneFunction);
   accordionTwo.addEventListener("click", accordionTwoFunction);
