@@ -159,6 +159,13 @@ a {
 /* --- END ABOUT ME SECTION STYLES ---*/
 
 /* --- PROJECT SECTION STYLES --- */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project-item {
   box-sizing: border-box;
   width: 90%;
@@ -167,6 +174,10 @@ a {
   padding: 10px;
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
   text-align: center;
+}
+
+.project-item:last-child {
+  margin-bottom: 0px;
 }
 
 .img-projects {
@@ -214,6 +225,10 @@ tr:nth-child(even) {
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
 }
 
+.skill-item:last-child {
+  margin-bottom: 0px;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -238,7 +253,6 @@ tr:nth-child(even) {
   width: 90%;
   box-sizing: border-box;
   margin: 0 auto;
-  margin-bottom: 40px;
   padding: 10px;
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
   text-align: center;
@@ -267,6 +281,10 @@ tr:nth-child(even) {
   padding: 10px;
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
   text-align: center;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0px;
 }
 
 /* --- END EXPERIENCE SECTION STYLES --- */
@@ -354,6 +372,10 @@ textarea {
 
 /* --- TABLET STYLES --- */
 @media screen and (min-width: 600px) {
+  #menu {
+    display: none;
+  }
+
   nav {
     display: block;
     background: none;
@@ -364,7 +386,7 @@ textarea {
   }
 
   .nav-background {
-    background: rgba(0,221,216,0.5);
+    background: rgba(0,221,216,0.6);
   }
 
   nav a {
@@ -377,27 +399,27 @@ textarea {
     padding-top: 40px;
   }
 
-  /*#nav-menu {
-    display: inline-block
+  .projects-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    align-items: flex-start; /* Stretch almost works */
   }
 
-  nav a {
-    display: inline-block;
+  .project-item {
+    width: 48%;
   }
 
-  nav a:hover {
-
-  }*/
-
-  #menu {
-    display: none;
-  }
 }
 
 /* --- END TABLET STYLES --- */
 
 /* --- DESKTOP STYLES --- */
 @media screen and (min-width: 920px) {
+  nav a {
+    margin-right: 40px;
+  }
+
 }
 
 /* --- END DESKTOP STYLES --- */
