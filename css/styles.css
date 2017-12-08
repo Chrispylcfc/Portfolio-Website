@@ -74,13 +74,13 @@ hr {
 #top-button {
   display: none;
   position: fixed;
-  bottom: 50px;
-  right: 5px;
-  min-width: 60px;
+  bottom: 60px;
+  right: 4px;
+  min-width: 40px;
   background-color: #517398;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 /* --- NAVIGATION STYLES --- */
