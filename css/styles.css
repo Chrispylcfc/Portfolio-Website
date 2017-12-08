@@ -49,12 +49,6 @@ button {
   font-weight: bold;
 }
 
-button:hover {
-  background-color: #517398;
-  color: #FFF;
-  transition: background-color 0.3s ease-in, color 0.3s ease-in;
-}
-
 h1 {
   margin: 0;
 }
@@ -104,6 +98,8 @@ nav a {
 }
 
 #menu {
+  background-color: #517398;
+  color: #FFF;
   position: fixed;
   top: 10px;
   left: 10px;
@@ -441,6 +437,12 @@ textarea {
 @media screen and (min-width: 920px) {
   nav a {
     margin-right: 40px;
+  }
+
+  button:hover {
+    background-color: #517398;
+    color: #FFF;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
   }
 
 }
