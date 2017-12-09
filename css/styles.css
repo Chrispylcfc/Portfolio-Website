@@ -445,6 +445,12 @@ textarea {
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
   }
 
+  .project-item {
+    width: 23%;
+    margin-bottom: 0px;
+  }
+
+
 }
 
 /* --- END DESKTOP STYLES --- */
