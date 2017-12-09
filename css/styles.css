@@ -465,7 +465,10 @@ textarea {
   .education-item {
     width: 50%;
   }
-  
+
+  .modal-content {
+    width: 50%;
+  }
 
 }
 
