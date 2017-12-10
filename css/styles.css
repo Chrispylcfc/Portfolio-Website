@@ -292,16 +292,83 @@ tr:nth-child(even) {
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
+  width: 7px;
   background-color: #517398;
   top: 0;
   bottom: 0;
-  left: 5%;
+  left: 31px;
+  margin-left: -3px;
 }
 
-/* Timeline Content */
+/* Timeline Content Container */
+.experience-container {
+  position: relative;
+  padding: 25px 70px;
+  padding: 0 0 40px 70px;
+  width: 80%;
+}
+
+/* Circles on Timeline */
+.experience-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #517398;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place left container to the right */
+.left {
+    left: 0;
+}
+
+/* Place right container also to the right */
+.right {
+    left: 0;
+}
+
+/* Add arrows to the left container (pointing left) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 16px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 16px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+}
+
+/* Fix the circle for containers on the right side */
+.left::after, .right::after {
+    left: 15px;
+}
+
+.experience-container::before {
+  left: 60px;
+  border: medium solid #517398;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #517398 transparent transparent;
+}
+
+/* The actual content */
 .experience-item {
-  width: 70%;
+  width: 100%;
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
@@ -309,18 +376,6 @@ tr:nth-child(even) {
   padding: 10px;
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
   text-align: center;
-}
-
-.experience-item::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  left: -134px;
-  background-color: orange;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
 }
 
 .experience-item:last-child {
@@ -465,7 +520,6 @@ textarea {
     width: 31%;
     margin-bottom: 0px;
   }
-
 }
 
 /* --- END TABLET STYLES --- */
