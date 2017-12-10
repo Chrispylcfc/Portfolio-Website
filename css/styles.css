@@ -356,6 +356,11 @@ tr:nth-child(even) {
   margin-bottom: 0px;
 }
 
+.responsibilities {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
 /* --- END EXPERIENCE SECTION STYLES --- */
 
 /* --- CONTACT ME SECTION STYLES --- */
