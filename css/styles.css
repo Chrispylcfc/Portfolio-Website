@@ -283,6 +283,21 @@ tr:nth-child(even) {
 /* --- END EDUCATION SECTION STYLES --- */
 
 /* --- EXPERIENCE SECTION STYLES --- */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  background-color: #517398;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+}
+
 .experience-item {
   width: 90%;
   box-sizing: border-box;
