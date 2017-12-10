@@ -283,6 +283,7 @@ tr:nth-child(even) {
 /* --- END EDUCATION SECTION STYLES --- */
 
 /* --- EXPERIENCE SECTION STYLES --- */
+/* Vetical Bar of Timeline */
 .timeline {
   position: relative;
   margin: 0 auto;
@@ -291,21 +292,35 @@ tr:nth-child(even) {
 .timeline::after {
   content: '';
   position: absolute;
-  width: 5px;
+  width: 6px;
   background-color: #517398;
   top: 0;
   bottom: 0;
   left: 5%;
 }
 
+/* Timeline Content */
 .experience-item {
-  width: 90%;
+  width: 70%;
+  position: relative;
   box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 40px;
   padding: 10px;
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
   text-align: center;
+}
+
+.experience-item::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -134px;
+  background-color: orange;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .experience-item:last-child {
