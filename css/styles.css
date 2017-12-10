@@ -378,6 +378,10 @@ tr:nth-child(even) {
   text-align: center;
 }
 
+.experience-container:last-child {
+  padding-bottom: 0px;
+}
+
 .experience-item:last-child {
   margin-bottom: 0px;
 }
