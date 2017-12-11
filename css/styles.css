@@ -137,6 +137,10 @@ a {
 /* --- END NAVIGATION STYLES --- */
 
 /* --- ABOUT ME SECTION STYLES --- */
+#map {
+  width: 100%;
+}
+
 .img-circle {
   height: 100px;
   width: 100px;
