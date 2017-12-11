@@ -151,10 +151,14 @@ a {
 }
 
 .img-center {
+  position: relative;
+  margin-top: -50px;
   text-align: center;
+  z-index: 2;
 }
 
 .about-me {
+  margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
@@ -479,6 +483,10 @@ textarea {
   .margin {
     margin-top: -40px;
     padding-top: 40px;
+  }
+
+  .about-me {
+    width: 70%;
   }
 
   .projects-container {
