@@ -19,8 +19,16 @@ header {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 50%;
+  height: 100%;
   background-color: #FF606E;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #517398;
 }
 
 section {
@@ -457,6 +465,12 @@ textarea {
 
 /* --- TABLET STYLES --- */
 @media screen and (min-width: 600px) {
+  header {
+    height: 100%;
+    background: url("../images/computer-desk.jpg") center no-repeat;
+    background-size: cover;
+  }
+
   #menu {
     display: none;
   }

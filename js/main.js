@@ -33,14 +33,14 @@
     }
   }
 
-  function navFunction(){
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      navMenu.classList.add("nav-background");
-    }
-    else {
-      navMenu.classList.remove("nav-background");
-    }
-  }
+  // function navFunction(){
+  //   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  //     navMenu.classList.add("nav-background");
+  //   }
+  //   else {
+  //     navMenu.classList.remove("nav-background");
+  //   }
+  // }
 
   function scrollFunction(){
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -103,7 +103,7 @@
   navButton.addEventListener("click", toggleMenu);
   navMenu.addEventListener("click", toggleMenu);
   document.addEventListener("scroll", scrollFunction);
-  document.addEventListener("scroll", navFunction);
+  // document.addEventListener("scroll", navFunction);
   topButton.addEventListener("click", topFunction);
   accordionOne.addEventListener("click", accordionOneFunction);
   accordionTwo.addEventListener("click", accordionTwoFunction);
