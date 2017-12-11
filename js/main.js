@@ -8,6 +8,7 @@
   let topButton = document.getElementById("top-button");
   let accordionOne = document.getElementById("accordion-one");
   let accordionTwo = document.getElementById("accordion-two");
+  let headerText = document.getElementById("header-text");
 
   let toggle = false; // hidden at first
   let moduleToggle1 = false; // hidden at first
@@ -82,6 +83,23 @@
       }
   }
 
+  // 3rd Party Js Typewriter
+  function displayHeaderText(){
+    let typewriter = new Typewriter(headerText, {
+      loop: false
+    });
+
+    typewriter.typeString('Java')
+      .pauseFor(2000)
+      .deleteAll()
+      .typeString('SQL')
+      .pauseFor(2000)
+      .deleteAll()
+      .typeString('Django Applications')
+      .pauseFor(2000)
+      .start();
+  }
+
   navButton.addEventListener("click", toggleMenu);
   navMenu.addEventListener("click", toggleMenu);
   document.addEventListener("scroll", scrollFunction);
@@ -89,5 +107,6 @@
   topButton.addEventListener("click", topFunction);
   accordionOne.addEventListener("click", accordionOneFunction);
   accordionTwo.addEventListener("click", accordionTwoFunction);
+  window.addEventListener("load", displayHeaderText);
 
 })();
