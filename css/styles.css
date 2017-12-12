@@ -5,6 +5,7 @@
 /*  --- GLOBAL & MOBILE STYLES --- */
 html {
   height: 100%;
+  /* Validator does not recognise scroll-behavior as property  */
   scroll-behavior: smooth;
 }
 
@@ -78,7 +79,6 @@ hr {
 }
 
 #top-button {
-  display: none;
   position: fixed;
   bottom: 60px;
   right: 4px;
@@ -87,6 +87,14 @@ hr {
   color: white;
   border: none;
   border-radius: 50%;
+}
+
+.hide-top-button {
+  display: none;
+}
+
+.show-top-button {
+  display: block;
 }
 
 /* --- NAVIGATION STYLES --- */
@@ -225,7 +233,7 @@ tr:nth-child(even) {
   background-color: #FF606E;
   display: inline-block;
   padding: 5px;
-  margin-right: 10px 5px 10px 5px;
+  margin: 10px 5px 10px 5px;
 }
 
 /* --- END PROJECT SECTION STYLES --- */

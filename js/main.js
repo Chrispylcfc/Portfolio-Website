@@ -10,6 +10,7 @@
   let accordionTwo = document.getElementById("accordion-two");
   let headerText = document.getElementById("header-text");
 
+  // Toggles for various functions
   let toggle = false; // hidden at first
   let moduleToggle1 = false; // hidden at first
   let moduleToggle2 = false; // hidden at first
@@ -43,11 +44,14 @@
   // }
 
   function scrollFunction(){
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        topButton.style.display = "block";
-    } else {
-        topButton.style.display = "none";
-    }
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          topButton.classList.remove("hide-top-button")
+          topButton.classList.add("show-top-button");
+      }
+      else {
+        topButton.classList.add("hide-top-button");
+        topButton.classList.remove("show-top-button");
+      }
   }
 
   function topFunction(){
@@ -83,10 +87,10 @@
       }
   }
 
-  // 3rd Party Js Typewriter
+  // 3rd Party JS Typewriter
   function displayHeaderText(){
     let typewriter = new Typewriter(headerText, {
-      loop: false
+      loop: true
     });
 
     typewriter.typeString('Java')
