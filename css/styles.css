@@ -87,6 +87,7 @@ hr {
   color: white;
   border: none;
   border-radius: 50%;
+  z-index: 2;
 }
 
 .hide-top-button {
@@ -120,7 +121,7 @@ nav a {
   top: 10px;
   left: 10px;
   min-width: 50px;
-  z-index: 3;
+  z-index: 4;
 }
 
 /* Rotate menu hamburger when pressed */
@@ -143,7 +144,7 @@ nav a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  z-index: 2;
+  z-index: 3;
 }
 
 a {
@@ -310,6 +311,7 @@ tr:nth-child(even) {
 /* --- END EDUCATION SECTION STYLES --- */
 
 /* --- EXPERIENCE SECTION STYLES --- */
+/* Adapting W3 Schools Timeline Tutorial */
 /* Vetical Bar of Timeline */
 .timeline {
   position: relative;
