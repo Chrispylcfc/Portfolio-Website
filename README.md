@@ -10,7 +10,7 @@ This is where all my sketches will go.
 
 ## FEATURES OF NOTE
 
-- List of features.
+- List of features
 
 ## DESIGN CONSIDERATIONS
 
@@ -28,11 +28,13 @@ Due to the website being a single page app a sitemap wouldn't be appropriate bec
 
 ## USER FEEDBACK
 
-- User:
-  - > Colour Scheme not very good.
-  - > Simple Navigation.
+> Some of the colour scheme contrasts aren't clear enough. E.g. the button on the modal is one instance of this.
 
-- Changes made to satisfy user feedback.
+> The Navigation for the website is simple and accessible.
+
+> External links to project git repositories could have been useful.
+
+Changes made to satisfy user feedback.
 
 ## REFERENCES
 
