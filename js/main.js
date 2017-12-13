@@ -15,7 +15,7 @@
   let moduleToggle1 = false; // hidden at first
   let moduleToggle2 = false; // hidden at first
 
-  function toggleMenu(){
+  function toggleMenu() {
     if (toggle) { // true: it's visible
       // Hide Navigation
       if (document.documentElement.clientWidth < 600) {
@@ -43,7 +43,7 @@
   //   }
   // }
 
-  function scrollFunction(){
+  function scrollFunction() {
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
           topButton.classList.remove("hide-top-button")
           topButton.classList.add("show-top-button");
@@ -54,12 +54,12 @@
       }
   }
 
-  function topFunction(){
+  function topFunction() {
     document.body.scrollTop = 0; // Chrome | Safari
     document.documentElement.scrollTop = 0; // IE | Firefox
   }
 
-  function accordionOneFunction(){
+  function accordionOneFunction() {
       let content = accordionOne.nextElementSibling;
       if (moduleToggle1) {
         content.classList.remove("show-module-content");
@@ -73,7 +73,7 @@
       }
   }
 
-  function accordionTwoFunction(){
+  function accordionTwoFunction() {
       let content = accordionTwo.nextElementSibling;
       if (moduleToggle2) {
         content.classList.remove("show-module-content");
@@ -88,7 +88,7 @@
   }
 
   // 3rd Party JS Typewriter
-  function displayHeaderText(){
+  function displayHeaderText() {
     let typewriter = new Typewriter(headerText, {
       loop: true
     });

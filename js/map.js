@@ -7,7 +7,7 @@
   let location = {lat: 52.629780, lng: -1.139370};
   let map; // Makes map available to both functions
 
-  function initMap(){
+  function initMap() {
      map = new google.maps.Map(gMap, {
       center: location,
       zoom: 10,
@@ -110,7 +110,7 @@
     });
   }
 
-  function centerMap(){
+  function centerMap() {
     map.setCenter(location);
   }
 

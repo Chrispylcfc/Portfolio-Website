@@ -8,9 +8,10 @@ This is where all my sketches will go.
 
 ![alt text](images/coming-soon.jpg)
 
-## FEATURES OF NOTE
+## KEY FEATURES
 
-- List of features
+- Feature 1.
+- Feature 2.
 
 ## DESIGN CONSIDERATIONS
 
@@ -34,10 +35,25 @@ Due to the website being a single page app a sitemap wouldn't be appropriate bec
 
 > External links to project git repositories could have been useful.
 
+> No success message upon form submit.
+
 Changes made to satisfy user feedback.
 
 ## REFERENCES
 
-- First Reference
-- Second Reference
-- etc...
+- Images
+  - First Reference
+  - Second Reference
+  - etc...
+
+
+- Tutorials
+  - First Reference
+  - Second Reference
+  - etc...
+
+
+- 3rd Party Libraries
+  - First Reference
+  - Second Reference
+  - etc...
