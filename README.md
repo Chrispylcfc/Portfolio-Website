@@ -1,6 +1,6 @@
 # PORTFOLIO WEBSITE
 
-[View Website Here]( https://chrispylcfc.github.io/Portfolio-Website/).
+[View Website Here](https://chrispylcfc.github.io/Portfolio-Website/).
 
 ## SKETCHES
 
@@ -62,27 +62,48 @@ Due to the website being a single page app a sitemap wouldn't be appropriate bec
 
 > The Navigation for the website is simple and accessible.
 
-> External links to project git repositories could have been useful.
+> External links to project GitHub repositories could have been useful.
 
 > No success message upon form submit.
 
-Changes made to satisfy user feedback.
+To satisfy the feedback that was presented to me by a user, I directly inverted the colours of the button on the modal, so that the background had a colour with white text. This meant that the button is now clearly visible on the modal. Unfortunately regarding the feedback about having links to projects GitHub repositories, I was unable to do this as the repositories for them are private so even if a link was provided, they wouldn't have been able to see anything. In the future I plan to flesh out the projects section with more detail including more images so that the user gets a better feel for the project and what was undertaken. Lastly in terms of a success message on form submit, because there is no backend for the website this was not possible to do in the way I would have liked, with the only option an alert dialog which would be more obtrusive to the user.
 
 ## REFERENCES
 
-- Images
-  - First Reference
-  - Second Reference
-  - etc...
+#### IMAGES / ICONS
+
+- **Logos:**
+  - HTML: https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png
+  - CSS: https://designapp.io/assets/main/images/logos/css.png
+  - JS: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
+  - C: https://seeklogo.com/images/C/c-programming-language-logo-9B32D017B1-seeklogo.com.png
+  - Java: http://diylogodesigns.com/blog/wp-content/uploads/2017/07/java-logo-vector-768x768.png
+  - Python: https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
+  - Django: https://www.djangoproject.com/s/img/logos/django-logo-negative.png
+  - MySQL: http://2.bp.blogspot.com/-1e1iVGCYpbQ/VF9UFzkdi2I/AAAAAAAAGhw/8EzVGUQF_3M/s1600/Logo%2BMySQL.png
+  - PHP: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2000px-PHP-logo.svg.png
+  - GitHub: https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png
+  - MS Office: http://ncmedia.azureedge.net/ncmedia/2014/10/Ofc_rgb_Orng166_D.png
+  - MATLAB: https://i1.wp.com/eodhistoricaldata.com/knowledgebase/wp-content/uploads/2017/06/MATLAB-.png?fit=498%2C500&ssl=1
 
 
-- Tutorials
-  - First Reference
-  - Second Reference
-  - etc...
+- **Projects:**
+    - Rock Paper Scissors: http://static1.squarespace.com/static/595543f6b11be1695b0fdb29/t/59555414cd0f68572370bb64/1498764324553/DFP-RockPaperScissors-Black.png?format=1000w
+    - Coming Soon: https://cdn.dribbble.com/users/180057/screenshots/2256895/comingsoon.jpg
 
 
-- 3rd Party Libraries
-  - First Reference
-  - Second Reference
-  - etc...
+- Header: https://www.healthnutnews.com/wp-content/uploads/2016/03/bigstock-Office-Workplace-With-Open-Lap-93619313.jpg
+- Font Awesome Icons: http://fontawesome.io/icons/
+
+
+#### TUTORIALS
+
+- Timeline Tutorial 1: https://www.w3schools.com/howto/howto_css_timeline.asp
+- Timeline Tutorial 2: https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528
+- Modal Tutorial: https://www.w3schools.com/howto/howto_css_modals.asp
+- Flexbox Guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+#### 3RD PARTY LIBRARIES
+
+- Typewriter JS: https://safi.me.uk/typewriterjs/
