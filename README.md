@@ -4,16 +4,43 @@
 
 ## SKETCHES
 
-This is where all my sketches will go.
+- Mobile Design sketches of my portfolio website.
+- Each page is a section of the Single Page Website.
+- Tablet & Desktop styles in comparison to mobile:
+  - Differ with header having an image instead of colour background.
+  - Fixed navigation bar at the top.
+  - Each article in each section are beside each other the larger the screen.
 
-![alt text](images/coming-soon.jpg)
+![Header, About Me & Projects Page Sketches](images/sketches/sketch1.png)
+
+![Skills & Education Page Sketches](images/sketches/sketch2.png)
+
+![Experience, Contact Me & Footer Page Sketches](images/sketches/sketch3.png)
 
 ## KEY FEATURES
 
-- Feature 1.
-- Feature 2.
+- Mobile Navigation - Press Hamburger, Overlapping page with semi-transparent background is shown with each link.
+- The hamburger button animates when pressed to show the menu by rotating 90 degrees. This was done using Key Frames in CSS.
+- Smooth Scroll when any links are pressed - Using scroll-behavior CSS property.
+- Google Maps API, Responsive as location remains central when page size is altered.
+- Contact Me modal is nice as it doesn't clutter up the website as it only displays when wanted and also shows nice use of JS.
+- Header picture for Tablet/Desktop screens works well as the main focus of the image is seen on both screen sizes.
+- The use of a 3rd Party Library for typewriting in Header has the desired effect.
+- I have used CSS Flexbox throughout the website in order to layout the content and i feel this has worked successfully.
 
-## DESIGN CONSIDERATIONS
+## ISSUES
+
+- Unable to create a timeline with items either side for the larger screen sizes. This was because the example was not developed mobile first and adapting to mobile first was more difficult than i expected.
+- Struggled to fit any animations / JSON api in to the website without it feeling random and out of place.
+- The skills section isn't as good as i would have liked, this is partly due to the fact I struggled to find logo pictures of similar size and style. In future could adapt and use a third party programming logos - similar to font awesome.
+- Coming up with the content for the website so in various places, dummy 'lorem ipsum' text is used as a placeholder. However the sections are still clear and distinct on what they will be about.
+- Lastly avoiding excessive use of divs in the HTML has been difficult, i have used HTML5 semantic elements throughout but have used divs in order to group specific items together in order to either apply styling or use features like CSS Flexbox.
+
+
+## DESIGN CONSIDERATIONS
+
+
+
 
 #### PARC
 
