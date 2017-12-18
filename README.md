@@ -1,6 +1,6 @@
 # PORTFOLIO WEBSITE
 
-[View Website Here](https://chrispylcfc.github.io/Portfolio-Website/).
+[View Website Here](https://chrispylcfc.github.io/portfolio-website/).
 
 ## SKETCHES
 
