@@ -219,7 +219,8 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: rgba(0,0,0,0.25);
+  color: #FFF;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .hide-details {
@@ -421,6 +422,11 @@ tr:nth-child(even) {
   padding: 10px 30px 10px 30px;
   width: 70%;
   box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
+}
+
+.modal-button {
+  background-color: #517398;
+  color: #FFF;
 }
 
 .close {
