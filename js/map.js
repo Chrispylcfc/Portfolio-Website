@@ -3,10 +3,14 @@
 */
 
 (function(){
+  // Get Map Element via Id set in HTML
   let gMap = document.getElementById('map');
+
+  // Set Location for Map and Create Map variable
   let location = {lat: 52.629780, lng: -1.139370};
   let map; // Makes map available to both functions
 
+  // Initialise Map - Grey/Silver Colour Theme
   function initMap() {
      map = new google.maps.Map(gMap, {
       center: location,
@@ -56,9 +60,7 @@
         {
           "featureType": "road",
           "elementType": "geometry",
-          "stylers": [{"color": "#ffffff"
-            }
-          ]
+          "stylers": [{"color": "#ffffff"}]
         },
         {
           "featureType": "road.arterial",
@@ -103,6 +105,7 @@
       ]
     });
 
+    // Set Marker for the Map including Drop Animation
     let marker = new google.maps.Marker({
       position: location,
       map: map,
@@ -110,11 +113,13 @@
     });
   }
 
-  function centerMap() {
+  // When Resizing Window keep Location centred on Map
+  function centreMap() {
     map.setCenter(location);
   }
 
+  // Event Listeners (Load & Resize)
   window.addEventListener("load", initMap);
-  window.addEventListener("resize", centerMap);
+  window.addEventListener("resize", centreMap);
 
 })();

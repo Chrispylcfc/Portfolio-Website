@@ -151,7 +151,6 @@ a {
   text-decoration: none;
   color: black;
 }
-
 /* --- END NAVIGATION STYLES --- */
 
 /* --- ABOUT ME SECTION STYLES --- */
@@ -237,7 +236,6 @@ tr:nth-child(even) {
   padding: 5px;
   margin: 10px 5px 10px 5px;
 }
-
 /* --- END PROJECT SECTION STYLES --- */
 
 /* --- SKILL SECTION STYLES --- */
@@ -277,7 +275,6 @@ tr:nth-child(even) {
   margin-bottom: 5px;
   align-self: center;
 }
-
 /* --- END SKILL SECTION STYLES --- */
 
 /* --- EDUCATION SECTION STYLES --- */
@@ -308,7 +305,6 @@ tr:nth-child(even) {
 .show-module-content {
   display: table;
 }
-
 /* --- END EDUCATION SECTION STYLES --- */
 
 /* --- EXPERIENCE SECTION STYLES --- */
@@ -390,7 +386,6 @@ tr:nth-child(even) {
   margin: 0;
   padding-bottom: 5px;
 }
-
 /* --- END EXPERIENCE SECTION STYLES --- */
 
 /* --- CONTACT ME SECTION STYLES --- */
@@ -549,9 +544,7 @@ textarea {
   .experience-container {
     width: 85%;
   }
-
 }
-
 /* --- END TABLET STYLES --- */
 
 /* --- DESKTOP STYLES --- */
@@ -587,7 +580,5 @@ textarea {
   .modal-content {
     width: 50%;
   }
-
 }
-
 /* --- END DESKTOP STYLES --- */

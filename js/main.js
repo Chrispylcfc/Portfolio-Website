@@ -1,8 +1,9 @@
 /*
-  This will include the main JS functionality.
+  JS for Main Functionality 
 */
 
 (function(){
+  // Get Elements via Id's set in HTML
   let navButton = document.getElementById("menu");
   let navMenu = document.getElementById("nav-menu");
   let topButton = document.getElementById("top-button");
@@ -15,6 +16,7 @@
   let moduleToggle1 = false; // hidden at first
   let moduleToggle2 = false; // hidden at first
 
+  // Display Mobile Menu if Mobile screen and animate hamburger button
   function toggleMenu() {
     if (toggle) { // true: it's visible
       // Hide Navigation
@@ -34,15 +36,7 @@
     }
   }
 
-  // function navFunction(){
-  //   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-  //     navMenu.classList.add("nav-background");
-  //   }
-  //   else {
-  //     navMenu.classList.remove("nav-background");
-  //   }
-  // }
-
+  // Display Top Button if page scrolls down more than 100
   function scrollFunction() {
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
           topButton.classList.remove("hide-top-button")
@@ -54,11 +48,13 @@
       }
   }
 
+  // When Top Button pressed scroll to top
   function topFunction() {
     document.body.scrollTop = 0; // Chrome | Safari
     document.documentElement.scrollTop = 0; // IE | Firefox
   }
 
+  // Year 1 Show Modules Functionality
   function accordionOneFunction() {
       let content = accordionOne.nextElementSibling;
       if (moduleToggle1) {
@@ -73,6 +69,7 @@
       }
   }
 
+  // Year 2 Show Modules Functionality
   function accordionTwoFunction() {
       let content = accordionTwo.nextElementSibling;
       if (moduleToggle2) {
@@ -87,7 +84,10 @@
       }
   }
 
-  // 3rd Party JS Typewriter
+  /*
+    3rd Party JS Typewriter
+    Displays different text in header every 2 seconds
+  */
   function displayHeaderText() {
     let typewriter = new Typewriter(headerText, {
       loop: true
@@ -104,10 +104,10 @@
       .start();
   }
 
+  // Event Listeners (Click, Scroll & Load)
   navButton.addEventListener("click", toggleMenu);
   navMenu.addEventListener("click", toggleMenu);
   document.addEventListener("scroll", scrollFunction);
-  // document.addEventListener("scroll", navFunction);
   topButton.addEventListener("click", topFunction);
   accordionOne.addEventListener("click", accordionOneFunction);
   accordionTwo.addEventListener("click", accordionTwoFunction);

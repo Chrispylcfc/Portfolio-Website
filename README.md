@@ -70,27 +70,27 @@ To satisfy the feedback that was presented to me by a user, I directly inverted 
 
 ## REFERENCES
 
-#### IMAGES / ICONS
+#### LOGOS
 
-- **Logos:**
-  - HTML: https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png
-  - CSS: https://designapp.io/assets/main/images/logos/css.png
-  - JS: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-  - C: https://seeklogo.com/images/C/c-programming-language-logo-9B32D017B1-seeklogo.com.png
-  - Java: http://diylogodesigns.com/blog/wp-content/uploads/2017/07/java-logo-vector-768x768.png
-  - Python: https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
-  - Django: https://www.djangoproject.com/s/img/logos/django-logo-negative.png
-  - MySQL: http://2.bp.blogspot.com/-1e1iVGCYpbQ/VF9UFzkdi2I/AAAAAAAAGhw/8EzVGUQF_3M/s1600/Logo%2BMySQL.png
-  - PHP: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2000px-PHP-logo.svg.png
-  - GitHub: https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png
-  - MS Office: http://ncmedia.azureedge.net/ncmedia/2014/10/Ofc_rgb_Orng166_D.png
-  - MATLAB: https://i1.wp.com/eodhistoricaldata.com/knowledgebase/wp-content/uploads/2017/06/MATLAB-.png?fit=498%2C500&ssl=1
+- HTML: https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png
+- CSS: https://designapp.io/assets/main/images/logos/css.png
+- JS: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
+- C: https://seeklogo.com/images/C/c-programming-language-logo-9B32D017B1-seeklogo.com.png
+- Java: http://diylogodesigns.com/blog/wp-content/uploads/2017/07/java-logo-vector-768x768.png
+- Python: https://www.python.org/static/community_logos/python-logo-master-v3-TM.png
+- Django: https://www.djangoproject.com/s/img/logos/django-logo-negative.png
+- MySQL: http://2.bp.blogspot.com/-1e1iVGCYpbQ/VF9UFzkdi2I/AAAAAAAAGhw/8EzVGUQF_3M/s1600/Logo%2BMySQL.png
+- PHP: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2000px-PHP-logo.svg.png
+- GitHub: https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png
+- MS Office: http://ncmedia.azureedge.net/ncmedia/2014/10/Ofc_rgb_Orng166_D.png
+- MATLAB: https://i1.wp.com/eodhistoricaldata.com/knowledgebase/wp-content/uploads/2017/06/MATLAB-.png?fit=498%2C500&ssl=1
 
+#### PROJECTS
 
-- **Projects:**
-    - Rock Paper Scissors: http://static1.squarespace.com/static/595543f6b11be1695b0fdb29/t/59555414cd0f68572370bb64/1498764324553/DFP-RockPaperScissors-Black.png?format=1000w
-    - Coming Soon: https://cdn.dribbble.com/users/180057/screenshots/2256895/comingsoon.jpg
+- Rock Paper Scissors: http://static1.squarespace.com/static/595543f6b11be1695b0fdb29/t/59555414cd0f68572370bb64/1498764324553/DFP-RockPaperScissors-Black.png?format=1000w
+- Coming Soon: https://cdn.dribbble.com/users/180057/screenshots/2256895/comingsoon.jpg
 
+#### HEADER IMAGE & ICONS
 
 - Header: https://www.healthnutnews.com/wp-content/uploads/2016/03/bigstock-Office-Workplace-With-Open-Lap-93619313.jpg
 - Font Awesome Icons: http://fontawesome.io/icons/
