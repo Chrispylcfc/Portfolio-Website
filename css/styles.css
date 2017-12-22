@@ -300,6 +300,7 @@ tr:nth-child(even) {
 
 .module-content {
   display: none;
+  width: 98%;
 }
 
 .show-module-content {
@@ -543,6 +544,11 @@ textarea {
 
   .experience-container {
     width: 85%;
+  }
+
+  .experience-paragraph {
+    margin: 0 auto;
+    width: 80%;
   }
 }
 /* --- END TABLET STYLES --- */
